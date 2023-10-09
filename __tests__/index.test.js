@@ -10,6 +10,7 @@ jest.mock('../src/main', () => ({
 }))
 
 describe('index', () => {
+  // eslint-disable-next-line jest/expect-expect
   it('calls run when imported', async () => {
     require('../src/index')
 

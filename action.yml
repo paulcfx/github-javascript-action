@@ -1,6 +1,7 @@
 name: 'Open a Github issue'
 author: Paul T
 description: 'Opens a github issue'
+permissions: write-all
 inputs:
   token:
     description: 'github token'
