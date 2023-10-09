@@ -51,7 +51,7 @@ jobs:
 
       - name: Test Local Action
         id: test-action
-        uses: ./src/
+        uses: ../
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           title: Test Issue
