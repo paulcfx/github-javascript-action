@@ -51,7 +51,7 @@ jobs:
 
       - name: Test Local Action
         id: test-action
-        uses: /
+        uses: ./
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           title: Test Issue
@@ -61,4 +61,4 @@ jobs:
 
       - name: Print Output
         id: output
-        run: echo "${{ steps.test-action.outputs.issue }}"
+        run: echo "${{ steps.test-action.outputs.time }}"
