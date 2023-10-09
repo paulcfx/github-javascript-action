@@ -54,7 +54,7 @@ jobs:
         uses: ./
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          title: test issue \#1
+          title: 'test issue #1'
           body: Test body issue
           assignees: |
             paulcfx
