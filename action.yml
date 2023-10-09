@@ -1,19 +1,20 @@
-name: 'The name of your action here'
-description: 'Provide a description here'
-author: 'Your name or organization here'
-
-# Define your inputs here.
+name: 'Open a Github issue'
+author: Paul T
+description: 'Opens a github issue'
 inputs:
-  milliseconds:
-    description: 'Your input description here'
+  token:
+    description: 'github token'
     required: true
-    default: '1000'
-
-# Define your outputs here.
+  title:
+    description: 'Issue title'
+    required: true
+  body:
+    description: 'Issue body'
+  assignees:
+    description: 'Issue assignees'
 outputs:
-  time:
-    description: 'Your output description here'
-
+  issue:
+    description: 'the issue object as a json string'
 runs:
-  using: node20
-  main: dist/index.js
+  using: 'node20'
+  main: 'dist/index.js'

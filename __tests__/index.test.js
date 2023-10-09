@@ -2,7 +2,7 @@
  * Unit tests for the action's entrypoint, src/index.ts
  */
 
-const { run } = require('../src/main')
+const { run } = require('../src/index')
 
 // Mock the action's entrypoint
 jest.mock('../src/main', () => ({
