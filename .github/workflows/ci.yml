@@ -6,7 +6,7 @@ on:
     branches:
       - main
       - 'releases/*'
-
+permissions: write-all
 jobs:
   test-javascript:
     name: JavaScript Tests
