@@ -1,4 +1,4 @@
-name: 'Open a Github issue'
+name: 'Open a Github issue (by Paul T)'
 author: Paul T
 description: 'Opens a github issue'
 permissions: write-all
