@@ -9639,7 +9639,6 @@ const github = __nccwpck_require__(5438)
 
 async function run() {
   try {
-    console.log('calling...')
     const token = core.getInput('token')
     const title = core.getInput('title')
     const body = core.getInput('body')
